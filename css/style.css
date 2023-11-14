@@ -1313,7 +1313,7 @@ a.more-btn:hover {
       -ms-border-radius: 6px;
       border-radius: 6px; }
       .conference-features .conference-post .inner-box h1 {
-        margin-left: -42px;
+        margin-left: -20px;
         font-weight: 300;
         margin-bottom: 8px; }
       .conference-features .conference-post .inner-box i {
@@ -4595,7 +4595,8 @@ footer.third-style {
     }
     .logo-text{
       display:inline-block;
-      font-family: 'Libre Baskerville', serif;
+      font-family: "Lora", serif;
+      font-style: italic;
       padding-left: 5px;
       font-size: 30px;
       font-weight: 400;
