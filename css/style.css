@@ -56,7 +56,7 @@ section.clients-section3 .client-box ul.client-list, section.blog-section .blog-
   margin: 0 0 10px;
   line-height: 28px; }
 
-.heading3, h3 {
+.heading3, h1 {
   color: #2d3034;
   font-size: 18px;
   font-family: "Rubik", sans-serif;
@@ -392,7 +392,8 @@ li:hover > .dropdown {
   -webkit-backface-visibility: hidden; }
 
 .title-section {
-  margin-bottom: 40px; }
+
+  margin: 40px; }
   .title-section span {
     display: block;
     color: #6c7a89;
@@ -642,6 +643,7 @@ section.promo-banner-section {
      * Set a base background for 1x environments.
      */
   background-image: url("./bg.jpg") ;
+  
   background-attachment: fixed;
   height:100vh;
   width:100%;
@@ -673,7 +675,7 @@ section.promo-banner-section {
     font-size: 40px;
     color: #000000;
     font-weight: 300; }
-  section.promo-banner-section .promo-banner-box h3 {
+  section.promo-banner-section .promo-banner-box h1 {
     font-family: "libre baskerville",serif;
     color: #000000;
     font-weight: 300;
@@ -4586,11 +4588,14 @@ footer.third-style {
     width: 100%; } }
 
 
-    .line{
-      
-      border-right: solid 1px black;
-      width:300px;
-      height:300px;
-      margin-left: 200px;
-    }
+   
     
+    .promo-banner-box{
+      padding-top: 300px;
+    }
+    .logo-text{
+      display:inline-block;
+      padding-left: 5px;
+      font-size: 30px;
+      font-weight: 400;
+    }
